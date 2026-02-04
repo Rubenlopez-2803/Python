@@ -1,0 +1,4 @@
+corriente = float(input("Ingresa la corriente en amperios (I): "))
+resistencia = float(input("Ingresa la resistencia en ohmios (R): "))
+voltaje = corriente * resistencia
+print(f"El voltaje es {voltaje} voltios")
