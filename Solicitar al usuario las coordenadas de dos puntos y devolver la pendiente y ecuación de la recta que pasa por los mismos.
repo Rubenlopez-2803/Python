@@ -1,0 +1,10 @@
+x1 = float(input("Ingresa la coordenada x1: "))
+y1 = float(input("Ingresa la coordenada y1: "))
+x2 = float(input("Ingresa la coordenada x2: "))
+y2 = float(input("Ingresa la coordenada y2: "))
+
+pendiente = (y2 - y1) / (x2 - x1)
+b = y1 - pendiente * x1
+
+print(f"La pendiente es: {pendiente}")
+print(f"La ecuación de la recta es: y = {pendiente}x + {b}")
