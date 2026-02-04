@@ -1,0 +1,5 @@
+nombre = input("Ingresa tu nombre: ")
+edad = int(input("Ingresa tu edad: "))
+año_actual = 2026
+año_nacimiento = año_actual - edad
+print(f"Hola {nombre}, naciste aproximadamente en el año {año_nacimiento}")
