@@ -1,0 +1,10 @@
+precio = float(input("Ingresa el precio de venta por unidad: "))
+cantidad = int(input("Ingresa la cantidad vendida: "))
+costo_fijo = float(input("Ingresa el costo fijo: "))
+costo_variable = float(input("Ingresa el costo variable por pieza: "))
+
+ingresos = precio * cantidad
+costos_totales = costo_fijo + (costo_variable * cantidad)
+beneficio = ingresos - costos_totales
+
+print(f"El beneficio es {beneficio:.2f}")

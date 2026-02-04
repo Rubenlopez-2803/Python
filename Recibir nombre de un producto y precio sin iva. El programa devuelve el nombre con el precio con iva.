@@ -1,0 +1,5 @@
+producto = input("Ingresa el nombre del producto: ")
+precio_sin_iva = float(input("Ingresa el precio sin IVA: "))
+iva = 0.21  # 21% de IVA
+precio_con_iva = precio_sin_iva * (1 + iva)
+print(f"El producto {producto} con IVA cuesta {precio_con_iva:.2f} euros")
