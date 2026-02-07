@@ -1,7 +1,0 @@
-horas_extras = float(input("Ingresa el número de horas extras trabajadas: "))
-horas_normales = 40
-pago_normal = 15
-pago_extra = 20
-
-salario = (horas_normales * pago_normal) + (horas_extras * pago_extra)
-print(f"El salario semanal es {salario} euros")
