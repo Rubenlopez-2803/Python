@@ -4,4 +4,5 @@ for letra in frase:
     print(letra, end='')
     contador = contador + 1
     if contador == 30:
+
         break
